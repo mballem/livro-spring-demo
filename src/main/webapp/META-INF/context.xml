@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+
+    <!-- HSQL DB -->
+    <Resource name="jdbc/hsql"
+              type="javax.sql.DataSource"
+              driverClassName="org.hsqldb.jdbcDriver"
+              url="jdbc:hsqldb:mem:tenant_1"
+              username="sa"
+              password=""
+              initialSize="2"
+              maxTotal="8"
+              minIdle="0"
+              maxIdle="1"/>
+
+    <!-- H2 DB -->
+    <Resource name="jdbc/h2"
+              type="javax.sql.DataSource"
+              driverClassName="org.h2.Driver"
+              url="jdbc:h2:mem:tenant_2;DB_CLOSE_DELAY=-1"
+              username="sa"
+              password=""
+              initialSize="2"
+              maxTotal="8"
+              minIdle="0"
+              maxIdle="1"/>
+
+</Context>
+
