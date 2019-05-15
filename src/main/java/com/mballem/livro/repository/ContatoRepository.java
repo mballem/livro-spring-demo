@@ -12,9 +12,9 @@ import org.springframework.data.jpa.repository.Query;
 public interface ContatoRepository extends JpaRepository<Contato, Long> {
 
     @Query("select c from Contato c "
-    		+ "where UPPER(c.nome) like %?1% "
-    		+ "or UPPER(c.endereco.logradouro )like %?1% "
-    		+ "or UPPER(c.endereco.cidade) like %?1%")
+            + "where UPPER(c.nome) like %?1% "
+            + "or UPPER(c.endereco.logradouro )like %?1% "
+            + "or UPPER(c.endereco.cidade) like %?1%")
     Page<Contato> findByFiltros(String sFilter, Pageable pageable);
 
     Page<Contato> findByIdade(Integer idade, Pageable pageable);
