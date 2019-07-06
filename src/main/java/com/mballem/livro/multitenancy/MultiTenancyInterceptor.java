@@ -18,6 +18,7 @@ public class MultiTenancyInterceptor extends HandlerInterceptorAdapter {
 	@Autowired
     private TenancyContext tenancyContext;
 
+    @SuppressWarnings("unchecked")
     @Override
     public boolean preHandle(HttpServletRequest req, HttpServletResponse resp, Object handler) throws Exception {
 
