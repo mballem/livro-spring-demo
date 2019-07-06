@@ -22,7 +22,7 @@
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<!-- Versions -->
 		<spring.framework>4.3.7.RELEASE</spring.framework>
-		<spring.data>1.11.20.RELEASE</spring.data>
+		<spring.data>1.11.22.RELEASE</spring.data>
 		<spring.security>4.2.2.RELEASE</spring.security>
 		<hibernate>5.2.8.Final</hibernate>
 		<dandelion>0.10.1</dandelion>
