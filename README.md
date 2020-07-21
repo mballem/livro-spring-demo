@@ -6,7 +6,7 @@
 ----------
 
 
-Está aplicação é um demo que reúne alguns dos conceitos abordados no livro `Spring Data JPA, Persistência Simples e Eficaz`, de autoria de [Marcio Ballem](http://www.mballem.com/) e publicado pela editora [Ciência Moderna](http://www.lcm.com.br/site/#/livros/detalhesLivro/spring-data-jpa---persistencia-simples-e-eficaz.html).
+Esta aplicação é um demo que reúne alguns dos conceitos abordados no livro `Spring Data JPA, Persistência Simples e Eficaz`, de autoria de [Marcio Ballem](http://www.mballem.com/) e publicado pela editora [Ciência Moderna](http://www.lcm.com.br/site/#/livros/detalhesLivro/spring-data-jpa---persistencia-simples-e-eficaz.html).
 
 **Alguns dos recursos incluídos nesse demo são:**
 
