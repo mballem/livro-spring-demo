@@ -26,8 +26,8 @@
 		<spring.security>4.2.20.RELEASE</spring.security>
 		<hibernate>5.2.8.Final</hibernate>
 		<dandelion>0.10.1</dandelion>
-		<junit.version>4.11</junit.version>
-		<jackson>2.9.10.3</jackson>
+		<junit.version>4.13.1</junit.version>
+		<jackson>2.9.10.5</jackson>
 	</properties>
 
 	<dependencies>
