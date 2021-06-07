@@ -23,7 +23,7 @@
 		<!-- Versions -->
 		<spring.framework>4.3.30.RELEASE</spring.framework>
 		<spring.data>1.11.22.RELEASE</spring.data>
-		<spring.security>4.2.20.RELEASE</spring.security>
+		<spring.security>5.2.10.RELEASE</spring.security>
 		<hibernate>5.2.8.Final</hibernate>
 		<dandelion>0.10.1</dandelion>
 		<junit.version>4.13.1</junit.version>
